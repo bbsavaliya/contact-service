@@ -10,4 +10,11 @@ Tech Stack Used in Project :
   - Spring JPA/ Hibernate
   
   To Run Project Follow Below Steps:
-    1) Go to path /target in Project and fire command java -jar 
+    1) Import Project from Git in your local
+    2) mvn clean
+    3) mvn install
+    
+    Go to /target/ folder in command line and fire below command.
+    java -jar contact-service.jar
+    
+    URL : http://localhost:8080/contact-service/
