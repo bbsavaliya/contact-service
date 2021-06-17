@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  context-path: /contact-service
+
+datasource:
+  sampleapp:
+    url: jdbc:h2:file:./data/contacts
+    username: root
+    password: root
+    driverClassName: org.h2.Driver
+    defaultSchema:
+    maxPoolSize: 10
+    hibernate:
+      hbm2ddl.method: update
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.H2Dialect
